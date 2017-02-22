@@ -14,6 +14,7 @@
 		264141911E5DE96800700D39 /* BoundedBlockingQueueTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2641418F1E5DE96800700D39 /* BoundedBlockingQueueTest.xcdatamodeld */; };
 		264141931E5DE96800700D39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264141921E5DE96800700D39 /* Assets.xcassets */; };
 		264141961E5DE96800700D39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264141941E5DE96800700D39 /* LaunchScreen.storyboard */; };
+		264141A01E5DE9CC00700D39 /* BoundedBlockingQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2641419F1E5DE9CC00700D39 /* BoundedBlockingQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		264141921E5DE96800700D39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		264141951E5DE96800700D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		264141971E5DE96800700D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2641419E1E5DE9CC00700D39 /* BoundedBlockingQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoundedBlockingQueue.h; path = Queue/BoundedBlockingQueue.h; sourceTree = "<group>"; };
+		2641419F1E5DE9CC00700D39 /* BoundedBlockingQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoundedBlockingQueue.m; path = Queue/BoundedBlockingQueue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		264141821E5DE96700700D39 /* BoundedBlockingQueueTest */ = {
 			isa = PBXGroup;
 			children = (
+				2641419D1E5DE98000700D39 /* Queue */,
 				264141861E5DE96700700D39 /* AppDelegate.h */,
 				264141871E5DE96700700D39 /* AppDelegate.m */,
 				264141891E5DE96700700D39 /* ViewController.h */,
@@ -80,6 +84,15 @@
 				264141841E5DE96700700D39 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2641419D1E5DE98000700D39 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				2641419E1E5DE9CC00700D39 /* BoundedBlockingQueue.h */,
+				2641419F1E5DE9CC00700D39 /* BoundedBlockingQueue.m */,
+			);
+			name = Queue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				264141911E5DE96800700D39 /* BoundedBlockingQueueTest.xcdatamodeld in Sources */,
+				264141A01E5DE9CC00700D39 /* BoundedBlockingQueue.m in Sources */,
 				2641418B1E5DE96700700D39 /* ViewController.m in Sources */,
 				264141881E5DE96700700D39 /* AppDelegate.m in Sources */,
 				264141851E5DE96700700D39 /* main.m in Sources */,
